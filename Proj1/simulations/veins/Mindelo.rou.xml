@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-12-17 00:39:33 by Eclipse SUMO duarouter Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="Mindelo.net.xml"/>
+        <route-files value="myFlow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="Mindelo.rou.xml"/>
+        <alternatives-output value="Mindelo.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <randomize-flows value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="flow1.0" depart="7.58" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow1.1" depart="9.51" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow1.2" depart="9.74" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow1.3" depart="12.69" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow2.0" depart="15.39" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.1" depart="17.24" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow1.4" depart="35.35" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow2.2" depart="38.16" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.3" depart="55.65" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.4" depart="56.85" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.5" depart="66.58" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow1.5" depart="75.18" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow1.6" depart="75.85" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow1.7" depart="83.72" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow2.6" depart="84.41" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow1.8" depart="88.65" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow2.7" depart="91.84" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.8" depart="94.34" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow1.9" depart="99.33" departLane="random" color="red">
+        <route edges="485282129 718442947 194995985 712359745 -236415825#5 -236415825#4 -236415825#3 -236415825#2 -236415825#1 -236415825#0 -573738322 195086468 718318908 712359742 -485271757"/>
+    </vehicle>
+    <vehicle id="flow2.9" depart="100.02" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.10" depart="103.99" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.11" depart="104.17" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.12" depart="113.40" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.13" depart="115.58" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+    <vehicle id="flow2.14" depart="119.78" departLane="random" color="blue">
+        <route edges="236415824#0 236415824#1 236415826#0 236415826#1 236415826#2 32052337#0 32052337#1"/>
+    </vehicle>
+</routes>
